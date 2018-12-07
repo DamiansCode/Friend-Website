@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <title>Not Found</title>
+    <head>
+        <style>
+            header {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            footer {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+        <body>
+            <footer>
+                Not Found
+            </footer>
+
+            <script>
+                var responseCode = 404;
+
+                if (!responseCode === false) {
+                    console.log("No errors found.");
+                } else {
+                    console.error(`The server returned with the response of ${responseCode}, it may have been that a page was deleted or was moved.`);
+                }
+            </script>
+        </body>
+    </head>
+</html>
