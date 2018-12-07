@@ -20,9 +20,10 @@
                 var responseCode = 404;
 
                 if (!responseCode === false) {
-                    console.log(`The server responded with the status code of ${responseCode}.`);
+                    console.error(`The server responded with the status code of ${responseCode}.`);
+                    alert("This page was unable to be found on the server, please ensure your spelling and grammar is correct and try again.");
                 } else {
-                    console.error("No errors have been found.");
+                    console.log("No errors have been found.");
                 }
             </script>
         </body>
